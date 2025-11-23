@@ -106,5 +106,3 @@ Respons sukses (`201 Created`) memuat data baru dan tautan `self`/`collection`.
 2. Gunakan Postman/Insomnia/cURL dan pastikan header `Content-Type: application/json` serta body valid supaya tidak terkena guard baru.
 3. Coba `GET /api/members` dua kali dengan header `If-None-Match` dari respons pertama untuk melihat `304 Not Modified`.
 4. Uji kasus error (body kosong, tanggal salah, ID tidak ada) untuk memastikan struktur error handler sesuai requirement tugas.
-
-Silakan lanjutkan pengembangan (autentikasi, DB sungguhan, automated testing, dsb) jika diperlukan untuk tugas P7 berikutnya.
